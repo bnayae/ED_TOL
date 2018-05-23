@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonContracts", "LessonContracts\LessonContracts.csproj", "{60E48BB2-8F4D-4ED7-A8E3-D479405BBA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonRepository", "LessonRepository\LessonRepository.csproj", "{2E48C01A-CC3F-4674-AE7D-6AEEB36E20D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonJob", "LessonJob\LessonJob.csproj", "{15F6255D-BC00-4591-8537-2E8149F52B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonAzureQueueProvider", "LessonAzureQueueProvider\LessonAzureQueueProvider.csproj", "{116319DC-224A-4BA4-813E-CBAF5BAF63ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonConsoleHost", "LessonConsoleHost\LessonConsoleHost.csproj", "{EB6C1AD8-024E-435F-A530-8C6B91CCD7FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonSimulator", "LessonSimulator\LessonSimulator.csproj", "{C58E624F-C2E6-4AFC-A16B-0526ED4AA871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonUnitTests", "LessonUnitTests\LessonUnitTests.csproj", "{4BB689C8-E945-4006-B916-B66D35D354F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60E48BB2-8F4D-4ED7-A8E3-D479405BBA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E48BB2-8F4D-4ED7-A8E3-D479405BBA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E48BB2-8F4D-4ED7-A8E3-D479405BBA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E48BB2-8F4D-4ED7-A8E3-D479405BBA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E48C01A-CC3F-4674-AE7D-6AEEB36E20D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E48C01A-CC3F-4674-AE7D-6AEEB36E20D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E48C01A-CC3F-4674-AE7D-6AEEB36E20D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E48C01A-CC3F-4674-AE7D-6AEEB36E20D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F6255D-BC00-4591-8537-2E8149F52B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F6255D-BC00-4591-8537-2E8149F52B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F6255D-BC00-4591-8537-2E8149F52B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F6255D-BC00-4591-8537-2E8149F52B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116319DC-224A-4BA4-813E-CBAF5BAF63ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116319DC-224A-4BA4-813E-CBAF5BAF63ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116319DC-224A-4BA4-813E-CBAF5BAF63ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116319DC-224A-4BA4-813E-CBAF5BAF63ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6C1AD8-024E-435F-A530-8C6B91CCD7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6C1AD8-024E-435F-A530-8C6B91CCD7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6C1AD8-024E-435F-A530-8C6B91CCD7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6C1AD8-024E-435F-A530-8C6B91CCD7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58E624F-C2E6-4AFC-A16B-0526ED4AA871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58E624F-C2E6-4AFC-A16B-0526ED4AA871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58E624F-C2E6-4AFC-A16B-0526ED4AA871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58E624F-C2E6-4AFC-A16B-0526ED4AA871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB689C8-E945-4006-B916-B66D35D354F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB689C8-E945-4006-B916-B66D35D354F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB689C8-E945-4006-B916-B66D35D354F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB689C8-E945-4006-B916-B66D35D354F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22F5CAF8-B217-4225-B36D-36EE227FE17C}
+	EndGlobalSection
+EndGlobal
